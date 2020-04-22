@@ -2,6 +2,9 @@
 
 body {
     font-family: 'Baloo Tammudu 2', sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
 }
 
 .featured-image {
@@ -22,17 +25,42 @@ body {
     margin-top: 20pxs;
 }
 
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+}
+
 nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    color: white;
 }
 
 nav a:hover {
     font-weight: bold;
 }
-li {
+
+nav li {
     display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
 }
 
 h2, h3 {
